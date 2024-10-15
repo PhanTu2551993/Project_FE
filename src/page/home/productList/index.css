@@ -1,0 +1,18 @@
+/* .search-productList {
+    margin-bottom: 16px;
+    position: relative;
+    left: 67%;
+    width: 200px;
+  } */
+  .productList-container {
+    margin-top: 80px;
+    padding: 20px;
+  }
+  .productList{
+    width: 90%;
+    display: grid;
+    margin-left: 75px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Tự động điều chỉnh số cột */
+    gap: 80px;
+    text-align: center;
+  }

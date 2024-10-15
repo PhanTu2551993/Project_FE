@@ -1,0 +1,31 @@
+ /* .even-row {
+    text-align: center;
+    background-color: #dcdcdc; 
+  }
+  
+
+  .odd-row {
+    text-align: center;
+    background-color: #fcffe5; 
+  }  */
+.custom-table-productDetail .ant-table-thead > tr > th {
+    text-align: center;
+    background-color: #beeaff; 
+    color: rgb(107, 85, 74); 
+    font-weight: bold;
+}
+
+.custom-table-productDetail .ant-table-tbody > tr > td {
+  text-align: center;
+}
+  
+.table-productDetail {
+  width: 80vw;
+}
+.search-productDetail {
+  margin-bottom: 16px;
+  position: relative;
+  left: 67%;
+  width: 200px;
+}
+
